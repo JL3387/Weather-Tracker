@@ -1,0 +1,76 @@
+li {
+  list-style: none;
+}
+
+.hide {
+  display: none;
+}
+
+#weatherAppContainer {
+  position: relative;
+  text-align: center;
+  color: #4d4d4d;
+  background: #e3e3e3;
+  margin: auto;
+  width: 810px;
+  min-height: 450px;
+}
+
+#userInputField {
+  display: inline-block;
+  padding: 0px;
+  overflow: hidden;
+}
+
+#citiesMatchDropdown {
+  background-color: white;
+  position: absolute;
+  min-width: 199px;
+  z-index: 100;
+}
+
+#citiesMatchDropdown a {
+  padding: 2px 0px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+  color: #4d4d4d;
+}
+
+#citiesMatchDropdown a:hover {
+  font-weight: bold;
+}
+
+#currentCondition * {
+  margin: 0px;
+  line-height: 50%;
+}
+
+#currentCondition img {
+  width: 65px;
+  height: 65px;
+  line-height: 0%;
+}
+
+#futureForecast {
+  padding: 0;
+  display: flex;
+}
+
+.timeAndDay {
+  background-color: #c7c7ff;
+  width: 16%;
+  margin: 0 2.5px 30px 2.5px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  clear: both;
+}
+
+#footer img {
+  padding-right: 20px;
+  width: 100px;
+}
